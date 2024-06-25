@@ -38,3 +38,13 @@ Authentication is the process of verifying that a user is who they claim to be. 
 2. Sometimes flawed logic in two-factor authentication means that after a user has completed the initial login step, the website doesn't adequately verify that the same user is completing the second step.
 
 3. Brute force 2FA code.
+
+## Prevention
+
+1. Take care with user credentials --> Never login over unencrypted channel.
+2. Effective password policy
+3. Prevent username enumeration --> Generic message.
+4. Implement robust brute-force protection
+5. Don't forget supplementary functionality --> Like 'remember me' and 'reset password' functionalities.
+6. Implement proper multifactor authentication.
+
